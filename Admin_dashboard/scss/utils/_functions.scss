@@ -1,0 +1,13 @@
+@use 'sass:math';
+
+// fonction pour convertir les valuers pixels en rem
+@function rem($pixel){
+
+        @if(math.is-unitless($pixel)){
+            @return math.div($pixel,16) + rem;
+        }
+        @else{
+            @return 'Ne pas Ajouter d\'Unité à la valeur à convetir !!!'; 
+        }
+
+}
