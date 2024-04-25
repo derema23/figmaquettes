@@ -1,0 +1,219 @@
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+body{
+    font-family: Mona-sans;
+   box-sizing: border-box;
+   margin : 0;
+   padding: 0;
+}
+
+/* Header */
+header{
+    width: 100%;
+}
+header .container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item{
+    list-style: none;
+}
+
+.link, .linkbtn1, .linkbtn2{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1A84FF;
+}
+
+a{
+   text-decoration:none;
+}
+
+
+.linkbtn1 a{
+    background-color: #fff;
+    color: #1A84FF;
+    border: 1px solid #1A84FF;
+    padding: 1rem 3rem;
+    border-radius: 2.25rem;
+}
+.linkbtn2 a{
+    background-color: #1A84FF;
+    color: #fff;
+    border: 1px solid #1A84FF;
+    padding: 1rem 3.5rem;
+    border-radius: 2.25rem;
+}
+
+
+
+
+/* footer */
+
+footer{
+    background-color:#001242;
+    color: #fff;
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+
+footer .container{
+    width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* align-items: center;
+    justify-content: space-between;
+    gap: 5rem;  */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer li{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color : #fff;
+}
+
+footer .left{
+    display: grid;
+    grid-template-rows: 50px 200px;
+}
+
+.copyright{
+    align-self: flex-end;
+}
+
+footer .right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.Quicklink , .legal{
+    display: grid;
+    grid-template-rows: 50px 50px;
+}
+
+.Quicklink ul, .legal ul{
+    padding-inline-start: 0;
+}
+
+.Quicklink li, .legal li{
+    margin-block-end: 1rem;
+}
+.network{
+    margin-block-start: 1rem;
+}
+
+
+/*main */
+
+main{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.head h1{
+    font-family: Mona-sans;
+    font-weight: 400;
+}
+
+.head p{
+    font-family: Mona-sans;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.card-container {
+    display: flex;
+    margin-bottom: 7rem;
+    gap: 1.5rem;
+}
+
+.card-container .card{
+    border: 0.5px solid #fff;
+    border-radius: 0.5rem ;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(147, 145, 145, 0.2), 0 6px 20px 0 rgba(198, 197, 197, 0.19);
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-family: Mona-sans; 
+}
+
+.card h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.card .price{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card ul{
+    list-style: none;    
+    padding-inline-start: 0;
+    line-height: 2rem;
+}
+
+.card ul li img{
+    margin-right: 0.5rem;
+}
+
+.card ul li{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.card span{
+    position: absolute;
+    transform: translate(40%,-125%);
+    border: 1px solid #fff;
+    background-color: #EAF7FF;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    color: #344054;
+    font-family: Mona-sans;
+    font-weight: 400;
+}
+
+.card button{
+    margin-top: 2rem;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    background-color:#00A3FF;
+    padding: 0.5rem 0;
+    font-family: Mona-sans;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+}
